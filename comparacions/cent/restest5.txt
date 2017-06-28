@@ -1,0 +1,32 @@
+APLICAN EL HASH FH1 A LES CLAUS: 
+Temps en actualitzar el filtre de bloom utilitzan el primer algorisme: 2.77099 ms
+Temps en actualitzar el filtre de bloom aplican a les claus un nou hash posterior: 9.722 ms
+Temps en actualitzar el filtre de bloom bidimensional: 2.70901 ms
+
+
+APLICAN SHA256 PER ENCRIPTAR LES CLAUS: 
+Temps en actualitzar el filtre de bloom: 1.986 ms
+Temps en actualitzar el filtre de bloom aplican a les claus un nou hash posterior: 8.898 ms
+Temps en actualitzar el filtre de bloom bidimensional: 1.901 ms
+
+
+RESULTATS DEL HASH FH1 EN UN DOCUMENT DE 100 CLAUS: 
+El percentatge de Fals Positiu utilitzant el primer algorisme: 0%
+I el percentatge de Positius es: 0.078688%
+El percentatge de Fals Positiu aplican un hash posterior al FH1 (segon algorisme): 1.12661%
+I el percentatge de Positius es: 1.2053%
+El percentatge de Fals Positiu actualitzan el filtre de bloom bidimensional: 0%
+I el percentatge de Positius es: 0.078688%
+
+I el percentatge de Positius REAL es: 0.078688%
+------------------------------------------------------------------------
+RESULTATS DEL SHA256 EN UN DOCUMENT DE 100 CLAUS: 
+El percentatge de Fals Positiu actualitzant el bloom amb el primer algorisme: 0%
+I el percentatge de Positius es: 0.078688%
+El percentatge de Fals Positiu del sha256 aplican un hash posterior es : 0.0499607%
+I el percentatge de Positius es: 0.128649%
+El percentatge de Fals Positiu actualitzan el filtre de bloom bidimensional: 0%
+I el percentatge de Positius es: 0.078688%
+
+I el percentatge de Positius REAL es: 0.078688%
+------------------------------------------------------------------------
